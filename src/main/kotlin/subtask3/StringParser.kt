@@ -4,8 +4,8 @@ class StringParser {
 
     // TODO: Complete the following function
     fun getResult(inputString: String): Array<String> {
+        var arr = ArrayList<String>()
         for (i in 0 until inputString.length) {
-            var arr = ArrayList<String>()
                    when (inputString[i]) {
 
                         '[', '{', '(', '<' -> {
